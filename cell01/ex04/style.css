@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: pink;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+a {
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.category {
+  margin: 0 1rem;
+}
+
+h3 {
+  text-align: right;
+  margin: 5px;
+}
