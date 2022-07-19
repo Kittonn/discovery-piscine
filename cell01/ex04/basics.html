@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  
   <title>Basics</title>
 </head>
 
@@ -16,22 +17,22 @@
   <main>
     <div class="category">
       <img src="https://img.advice.co.th/images_nas/pic_product4/A0134059/A0134059OK_BIG_1.jpg" alt="">
-      <a href="https://www.advice.co.th/branch-a001/index.php/product/productdetail/A0134059">Ipone 11</a>
+      <a target="_blank" href="https://www.advice.co.th/branch-a001/index.php/product/productdetail/A0134059">Iphone 11</a>
     </div>
     <div class="category">
       <img src="https://img.advice.co.th/images_nas/pic_product4/A0139847/A0139847OK_BIG_1.jpg" alt="">
-      <a href="https://www.advice.co.th/branch-a032/index.php/product/productdetail/A0139847">Iphone 13 Pro</a>
+      <a target="_blank" href="https://www.advice.co.th/branch-a032/index.php/product/productdetail/A0139847">Iphone 13 Pro</a>
     </div>
   </main>
   <hr>
   <footer>
-    <h3>&copy; klambang <span id="year"></span></h3>
+    <h4 id="year"></h4>
   </footer>
 </body>
 
 <script>
   let text = document.getElementById("year")
-  text.innerText = new Date().getFullYear()
+  text.innerHTML = `&copy; klambang ${new Date().getFullYear()}`
 </script>
 
 </html>
