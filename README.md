@@ -11,22 +11,22 @@
   - [x] [ex02](./cell00/ex02/)
   - [x] [ex03](./cell00/ex03/)
   - [x] [ex04](./cell00/ex04/)
-  - [ ] [ex05](./cell00/ex05/)
+  - [x] [ex05](./cell00/ex05/)
 - [x] [cell01](./cell01/)
   - [x] [ex00](./cell01/ex00/)
   - [x] [ex01](./cell01/ex01/)
   - [x] [ex02](./cell01/ex02/)
   - [x] [ex03](./cell01/ex03/)
   - [x] [ex04](./cell01/ex04/)
-  - [ ] [ex05](./cell01/ex05/)
-  - [ ] [ex06](./cell01/ex06/)
-- [ ] cell02
-  - [ ] ex00
+  - [x] [ex05](./cell01/ex05/)
+  - [x] [ex06](./cell01/ex06/)
+- [ ] [cell02](./cell02/)
+  - [x] [ex00](./cell02/ex00/)
   - [ ] ex01
   - [ ] ex02
   - [ ] ex03
-- [ ] cell03
-  - [ ] ex00
+- [ ] [cell03](./cell03/)
+  - [x] [ex00](./cell03/ex00/)
   - [ ] ex01
   - [ ] ex02
   - [ ] ex03
