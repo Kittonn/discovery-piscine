@@ -32,19 +32,16 @@ img {
   width: 100%;
 }
 
-.btn {
-  color: white;
-  font-weight: 400;
-  padding: 0.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  background: transparent;
-  border: 0px;
-}
 
-.btn-container {
+
+.contact-container {
   background: black;
   width: 100%;
+  padding: 0.5rem 0;
+}
+
+.contact {
+  color: white;
 }
 
 h2 {
@@ -62,6 +59,7 @@ i {
 
 a {
   margin: 0.25rem;
+  text-decoration: none;
 }
 
 .kmitl {

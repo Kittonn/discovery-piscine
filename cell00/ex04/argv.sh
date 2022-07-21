@@ -1,7 +1,7 @@
 COUNT=0
 if [ $# == 0 ]
 then
-  echo "No argument"
+  echo "No argument supplied"
 else
   for i in $@
   do

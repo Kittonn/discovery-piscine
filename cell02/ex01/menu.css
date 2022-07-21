@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+i {
+  background-color: #264653;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+ul {
+  display: none;
+  background-color: #2a9d8f;
+  width: fit-content;
+  padding: 0.5rem;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
+input[type=checkbox]:checked ~ ul {
+  display: block;
+}
+
