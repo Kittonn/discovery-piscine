@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+</head>
+
+<body>
+  <header class="bg-white z-40 shadow-md fixed w-full">
+    <nav class="container p-5 mx-auto md:flex md:justify-between md:items-center">
+      <div class="flex justify-between items-center">
+        <div>
+          <h1 class="text-3xl font-bold"><a href="/">Kitton</a></h1>
+        </div>
+        <div class="md:hidden z-40" id="toggle"><i id="icon" class="text-2xl fa-solid fa-bars"></i></div>
+      </div>
+      <div id="slide"
+        class="md:static transition-all ease-in-out duration-500 absolute top-[-1000px] left-0 bg-white w-full">
+        <div class="container mx-auto p-5 md:p-0 md:flex md:justify-end">
+          <a class="text-lg font-medium md:ml-12 block mb-4 md:mb-0 md:inline hover:text-[#adb5bd]" href="#home">Home</a>
+          <a class="text-lg font-medium md:ml-12 block mb-4 md:mb-0 md:inline hover:text-[#adb5bd]" href="#skill">Skills</a>
+          <a class="text-lg font-medium md:ml-12 block mb-4 md:mb-0 md:inline hover:text-[#adb5bd]" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div
+      class="container p-5 mx-auto min-h-screen flex md:flex-row flex-col-reverse justify-center md:justify-between items-center"
+      id="home">
+      <div class="md:mr-8 md:text-left text-center md:mt-0 mt-8">
+        <h1 class="text-3xl lg:text-5xl font-bold ">Kittipod Lambangchang</h1>
+        <p class="text-lg lg:text-xl my-4 font-medium ">A passionate <span class="text-[#ef476f]">computer engineering
+            student</span> at KMITL.</p>
+        <div class="mt-12"><a href="#skill"
+            class="border-2 border-[#073b4c] text-[#073b4c] hover:bg-[#073b4c] hover:text-white py-2 px-12 rounded-lg text-lg font-bold">Click
+            me</a></div>
+      </div>
+      <div class="max-w-[300px] lg:max-w-[350px] shadow-md  rounded-2xl overflow-hidden">
+        <img class="w-full" src="https://kitton.vercel.app/ton.JPG" alt="">
+      </div>
+    </div>
+    <div class="bg-[#e9ecef]">
+      <div class="min-h-screen container p-5 mx-auto" id="skill">
+        <div class="mt-[4.5rem]">
+          <h1 class="text-4xl font-bold mb-4 text-center">My Skills</h1>
+          <div class="flex justify-center items-center flex-wrap">
+            <div><i class="text-5xl m-4 fa-brands fa-html5"></i></div>
+            <div><i class="text-5xl m-4 fa-brands fa-css3-alt"></i></div>
+            <div><i class="text-5xl m-4 fa-brands fa-js-square"></i></div>
+            <div><i class="text-5xl m-4 fa-brands fa-node-js"></i></div>
+            <div><i class="text-5xl m-4 fa-brands fa-python"></i></div>
+
+          </div>
+        </div>
+        <div class="my-8">
+          <h1 class="text-4xl font-bold mb-8 text-center ">My Projects</h1>
+          <div class="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/covid.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Covid-Tracker">Covid Tracker</a>
+              </h1>
+            </div>
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/devchallenges.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Dev-Challenges">Dev Challenges</a>
+              </h1>
+            </div>
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/frontendmentor.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Frontend-Mentor-Challenges">Frontend Mentor
+                  Challenges</a>
+              </h1>
+            </div>
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/markdown.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Markdown-Previewer">Markdown Previewer</a>
+              </h1>
+            </div>
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/quote.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Random-Quote-Machine">Quote Generator</a>
+              </h1>
+            </div>
+            <div class="bg-white shadow-lg max-w-[450px] hover:scale-110 rounded-lg overflow-hidden">
+              <img class="w-full" src="./asset/vocabstore.png" alt="">
+              <h1 class="my-6 text-xl font-bold">
+                <a target="_blank" href="https://github.com/Kittonn/Vocab-store">Vocab Store</a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="min-h-screen flex flex-col justify-center items-center" id="contact">
+      <h1 class="text-4xl mb-6 font-bold">Contact Me</h1>
+      <div>
+        <a target="_blank" class="m-4" href="https://instagram.com/kitton._">
+          <i class="text-black hover:text-[#dee2e6] hover:scale-110 fa-brands fa-instagram text-4xl"></i>
+        </a>
+        <a target="_blank" class="m-4" href="https://facebook.com/thunder2004">
+          <i class="text-black hover:text-[#dee2e6] hover:scale-110 fa-brands fa-facebook-square text-4xl"></i>
+        </a>
+        <a target="_blank" class="m-4" href="https://github.com/kittonn">
+          <i class="text-black hover:text-[#dee2e6] hover:scale-110 fa-brands fa-github-square text-4xl"></i>
+        </a>
+      </div>
+  </main>
+  <footer class="bg-black text-white text-center text-lg font-medium p-3">
+    <p id="copyright"></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
