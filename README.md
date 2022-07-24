@@ -31,4 +31,4 @@
   - [x] [ex02](./cell03/ex02/)
   - [x] [ex03](./cell03/ex03/)
   - [x] [ex04](./cell03/ex04/)
-
+- [ ] [rush](./rush/)
